@@ -1,0 +1,67 @@
+name: elmaleka_kitchen_project
+description: "A new Flutter project for restaurant ."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.6.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  flutter_bloc: ^9.1.1
+  json_annotation: ^4.9.0
+  go_router: ^16.0.0
+  shared_preferences: ^2.5.3
+  dio: ^5.8.0+1
+  intl: ^0.20.2
+  awesome_snackbar_content: ^0.1.1
+  responsive_builder: ^0.7.1
+  flutter_localization: ^0.3.3
+  flutter_svg: ^2.2.0
+  device_preview: ^1.3.1
+  google_fonts: ^6.2.1
+  equatable: ^2.0.7
+  skeletonizer: ^2.1.0+1
+  lottie: ^3.3.1
+  flutter_secure_storage: ^9.2.4
+  get_it: ^8.2.0
+  dio_cookie_manager: ^3.3.0
+  cookie_jar: ^4.0.8
+  path_provider: ^2.1.5
+  rxdart: ^0.28.0
+  url_launcher: ^6.3.2
+  webview_flutter: ^4.13.0
+  auto_size_text: ^3.0.0
+  flutter_inappwebview: ^6.1.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^5.0.0
+  json_serializable: ^6.9.5
+  build_runner: ^2.4.15
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - lib/assets/images/
+
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
